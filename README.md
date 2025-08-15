@@ -2,13 +2,10 @@ AI News Aggregator
 A simple yet powerful news aggregator web application built with Python and Streamlit. This app helps you stay up-to-date with the latest in Artificial Intelligence by consolidating news from your favorite RSS feeds into a single, clean interface.
 
 🚀 Features
-Default News Sources: Comes pre-loaded with a list of top-tier AI news sources.
-
-Custom Feeds: Easily add your own favorite RSS feeds to create a personalized news dashboard.
-
-Persistent Storage: Your custom feeds are saved locally in a user_feeds.json file, so they are remembered every time you launch the app.
-
-Simple Interface: A clean and intuitive user interface built with Streamlit.
+1. Default News Sources: Comes pre-loaded with a list of top-tier AI news sources.
+2. Custom Feeds: Easily add your own favorite RSS feeds to create a personalized news dashboard.
+3. Persistent Storage: Your custom feeds are saved locally in a user_feeds.json file, so they are remembered every time you launch the app.
+4. Simple Interface: A clean and intuitive user interface built with Streamlit.
 
 Easy to Use: No complex setup required. Get up and running in minutes.
 
@@ -17,45 +14,44 @@ To run this application on your local machine, please follow these steps.
 
 Prerequisites:
 
-Python 3.7+
-
-pip (Python package installer)
+1. Python 3.7+
+2. pip (Python package installer)
 
 Steps:
 
-Clone the repository:
+1. Clone the repository:
 
-git clone https://github.com/your-username/ai-news-aggregator.git
-cd ai-news-aggregator
+```
+git clone https://github.com/Vivek385/NewsAgent.git
+cd NewsAgent
+```
 
-Install the required libraries:
-
+2. Install the required libraries:
+```
 pip install streamlit feedparser
+```
 
-Run the application:
-
-streamlit run main.py
-
+3. Run the application:
+```
+streamlit run News_Agent.py
+```
 Your web browser will automatically open a new tab with the running application.
 
 ⚙️ How to Use the App
-View News: By default, the app loads and displays the latest articles from the pre-configured feeds.
 
-Filter Sources: Use the checkboxes in the sidebar to show or hide news from specific sources.
+1. View News: By default, the app loads and displays the latest articles from the pre-configured feeds.
+2. Filter Sources: Use the checkboxes in the sidebar to show or hide news from specific sources.
 
 Add a Custom Feed:
 
-Go to the "Add Your Own Feed" section in the sidebar.
-
-Enter a unique name for the feed and its full RSS URL.
-
-Click the "Add Feed" button. The feed will be saved and will appear in your "Custom Feeds" list.
+1. Go to the "Add Your Own Feed" section in the sidebar.
+2. Enter a unique name for the feed and its full RSS URL.
+3. Click the "Add Feed" button. The feed will be saved and will appear in your "Custom Feeds" list.
 
 Remove a Custom Feed:
 
-Click the "🗑️" icon next to the custom feed you wish to remove.
-
-The feed will be deleted from your list and the user_feeds.json file.
+3. Click the "🗑️" icon next to the custom feed you wish to remove.
+4. The feed will be deleted from your list and the user_feeds.json file.
 
 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
